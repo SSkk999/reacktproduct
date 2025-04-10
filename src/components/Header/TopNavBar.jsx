@@ -9,20 +9,20 @@ const TopNavBar = () => {
       return (
         <Navbar expand="lg" fixed='top' bg='dark' variant='dark'>
           <Container>
-            <Navbar.Brand href="#home">My Shop</Navbar.Brand>
+            <Navbar.Brand href="/">My Shop</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/link">Link</Nav.Link>
                 <NavDropdown title="Options" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#products">Products</NavDropdown.Item>
-                  <NavDropdown.Item href="#contacts">
+                  <NavDropdown.Item href="/products">Products</NavDropdown.Item>
+                  <NavDropdown.Item href="/contacts">
                     Contacts
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                  <NavDropdown.Item href="/action/3.3">Something</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#contact_us">
+                  <NavDropdown.Item href="/contact_us">
                     Contact us
                   </NavDropdown.Item>
                 </NavDropdown>

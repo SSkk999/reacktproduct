@@ -1,0 +1,24 @@
+.foto{
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+}
+.s{
+    position: sticky;
+   top: -130px;
+    
+}
+#text{
+    margin-left: 400px;
+    margin-top: -210px;
+    position: absolute;
+    font-size: 15px;
+}
+#sss{
+    width: 200px;
+    height: 250px;
+}
+#sss1{
+    width: 260px;
+    height: 250px;
+}

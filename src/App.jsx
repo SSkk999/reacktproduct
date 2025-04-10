@@ -3,11 +3,13 @@ import Home from "./Pages/Home"
 import { Routes, Route } from "react-router-dom"
 import Products from "./Pages/Products"
 import Contacts from "./Pages/Contacts"
+import "./index.css"
+
 function App() {
 
 
   return (
-    <Fragment>
+    <Fragment >
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/products" element={<Products/>}></Route>
